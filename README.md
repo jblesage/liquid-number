@@ -1,4 +1,4 @@
-liquid-number
+Liquid-Number
 =============
 
 A Jekyll/Liquid plugin that formats numbers
@@ -22,6 +22,10 @@ The only function available is `number`. It can be used in two ways:
     {{ raw_number | number: " " }}
 
   will output 2 345
+
+## Bugs
+
+This was written quickly and for a very specific purpose. Therefore, it currently does not support numbers with decimals, only whole numbers.
 
 ## Contact
 
